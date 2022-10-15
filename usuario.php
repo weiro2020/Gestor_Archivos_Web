@@ -17,7 +17,7 @@ if(!ISSET($_SESSION['student'])){
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#353738;">
 		<div class="container-fluid">
-			<label class="navbar-brand" id="title">Gestor de archivos web</label>
+		<center><label class="navbar-brand" id="title">Gestor de archivos web</label></center>
 		</div>
 	</nav>
 	<div class="col-md-4">
@@ -76,9 +76,9 @@ if(!ISSET($_SESSION['student'])){
 			</div>
 		</div>
 	</div>
-	<div id = "footer">
+	<center><div id = "footer">
 		<label class = "footer-title">&copy; Gestor de archivos web <?php echo date("Y", strtotime("+8 HOURS"))?></label>
-	</div>
+	</div></center>
 	<div class="modal fade" id="modal_confirm" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">

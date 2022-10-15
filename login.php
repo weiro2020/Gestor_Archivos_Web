@@ -1,5 +1,5 @@
-<div class="col-md-3">
-	<div class="panel panel-success" id="panel-margin">
+<div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-success" id="panel-margin"> 
 		<div class="panel-heading">
 			<h1 class="panel-title">Ingreso de usuario</h1>
 		</div>
@@ -20,4 +20,4 @@
 			</form>
 		</div>
 	</div>
-</div>	
+</div>
